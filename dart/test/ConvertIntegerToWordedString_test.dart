@@ -17,3 +17,7 @@ void main() {
     });
   });
 }
+
+class NotImplementedError extends UnsupportedError {
+  NotImplementedError([String message = 'This feature is not yet implemented']) : super(message);
+}
