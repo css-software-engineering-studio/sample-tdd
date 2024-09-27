@@ -9,6 +9,13 @@ void main() {
       expect(words.toLowerCase(), equals('one'));
     });
 
+    test('Handle single digit integers', () {
+      expect(integerToWordedString(0), 'zero');
+      expect(integerToWordedString(2), 'two');
+      expect(integerToWordedString(5), 'five');
+      expect(integerToWordedString(9), 'nine');
+    });
+
     test('First negative integer is -1', () {
       var number = -1;
       var words = integerToWordedString(number);
