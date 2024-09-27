@@ -46,7 +46,7 @@ The complete set of unit tests for the `IntegerToWordedString` function that is 
 
 ## Building and Testing
 
-While the system can be built and tested using different IDEs, this project was created and tested using VSCode. Testing was performed by running the full set of tests in the VSCode terminal window using the `dart ` command -- specifically, executing `dart ConvertIntegerToWordedStringTests.dart` after changing the current directory to `sample-tests` folder.
+While the system can be built and tested using different IDEs, this project was created and tested using VSCode. Testing was performed by running the full set of tests in the VSCode terminal window using the `dart ` command -- specifically, executing `dart ConvertIntegerToWordedString_test.dart` after changing the current directory to `test` folder.
 
 The first execution should result in final "red" state test status like:
 
