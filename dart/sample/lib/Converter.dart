@@ -11,10 +11,10 @@ String integerToWordedString(int number) {
     words.add("one");
   }
 
-  return _convertWordsIntoString(words);
+  return _convertWordsArrayIntoStringThatHasFormattedSpaces(words);
 }
 
-String _convertWordsIntoString(List<String> words) {
+String _convertWordsArrayIntoStringThatHasFormattedSpaces(List<String> words) {
   String res = "";
   int i = 0;
   while(i < words.length) {
