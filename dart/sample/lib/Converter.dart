@@ -1,5 +1,8 @@
 
 String integerToWordedString(int number) {
+  if(number == 0) {
+    return 'zero';
+  }
   if(number > 9) {
     throw new UnimplementedError("integerToWordedString does not support absolute value numbers greater than 9");
   }
