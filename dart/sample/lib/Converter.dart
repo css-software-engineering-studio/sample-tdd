@@ -35,14 +35,14 @@ String _convertWordsArrayIntoStringThatHasFormattedSpaces(List<String> words) {
 String _get20to99ValueAsString(int number) {
   String res = "";
   int firstDigit = number ~/ 10;
-  res += _get20to99TensValueAsString(firstDigit);
+  res += _get20to90TensValueAsString(firstDigit);
   if(number % 10 != 0) {
     res += ' ' + _getSingleDigitAsWordString(number % 10);
   }
   return res;
 }
 
-String _get20to99TensValueAsString(int firstDigit) {
+String _get20to90TensValueAsString(int firstDigit) {
   switch (firstDigit) {
     case 2:
       return 'twenty';
