@@ -15,7 +15,7 @@ public class ConvertIntegerToWordedStringTests {
 
     @Test
     // TODO: Initial "red" test to code logic
-    void firstPostiveIntegerIsOne() {
+    void firstPostiveInteger() {
         int number = 1;
         String words = Converter.integerToWordedString(number);
         assertEquals("one", words);
