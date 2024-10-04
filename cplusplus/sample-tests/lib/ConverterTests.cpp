@@ -10,7 +10,7 @@ TEST_CASE("Converter Function is not implemented")
 }
 
 // TODO: Initial "red" test to code logic
-TEST_CASE("First positive integer is converted to 'one'")
+TEST_CASE("First positive integer")
 {
     int number = 1;
     CHECK(Converter::IntegerToWordedString(number) == "one");

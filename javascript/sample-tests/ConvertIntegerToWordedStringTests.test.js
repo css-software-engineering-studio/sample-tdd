@@ -8,7 +8,7 @@ describe('Converter Functionality', () => {
     });
 
     // TODO: Initial "red" test to code logic
-    test('First positive integer is converted to "one"', () => {
+    test('First positive integer is converted', () => {
         expect(Converter.integerToWordedString(1)).toBe("one");
     });
 });

@@ -14,7 +14,7 @@ class ConvertIntegerToWordedStringTests(unittest.TestCase):
             IntegerToWordedString(-1000000)
 
     # TODO: Initial "red" test to code logic
-    def test_first_positive_integer_is_one(self):
+    def test_first_positive_integer(self):
         number = 1
         words = IntegerToWordedString(number)
         self.assertEqual(words.lower(), "one")
