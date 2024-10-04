@@ -1,7 +1,10 @@
 # Getting Started
 
-The purpose of the project is to let you practice using TDD (Test-Driven Development, aka Test-Driven Design). \
+The purpose of the project is to let you practice using TDD (Test-Driven Development, aka Test-Driven Design). 
+
 To experience TDD, use the red-green-refactoring pattern to fully implement the IntegerToWordedString conversion function. This function takes an integer number and converts to a worded string (in whatever output language that you care to use for implementation though the initial test is based on English). The project source is explicitly stubbed out to a minimum implementation that only defines main program, the conversion function declaration, and two unit tests.
+
+The goal is for you to create “beautiful code” that fully implements the specifications for 32-bit numbers.
 
 # Functional Specification
 
@@ -140,9 +143,9 @@ Implement the `IntegerToWordedString` function which converts integers into thei
 
 **Commit your changes to Git:** Once the test passes, commit your changes to the current branch.
 
-**Yellow:** Review the existing implementation for potential improvements (refactor stage). This might involve applying development principles like DRY (Don't Repeat Yourself) and SOLID. Ensure any refactoring does not break existing tests.
+**Yellow:** Refactor stage. Is the code "beautiful"? Could the design and readability be improved? Apply development principles like DRY (Don't Repeat Yourself) and SOLID. Ensure any refactoring does not break existing tests.
 
-> Remember: It might be tempting to stray from this process, but consistency is crucial for learning! Always focus on identifying a boundary/unique case, select a representative value from that group for testing, writing the corresponding test, and then refine the code as necessary!
+> Remember: It might be tempting to stray from this red-green-refactor process, but consistency is crucial for learning! Always focus on identifying a boundary/unique case, select a representative value from that group for testing, writing the corresponding test, and then refine the code as necessary!
 
 ### Iteratively add more tests:
 
