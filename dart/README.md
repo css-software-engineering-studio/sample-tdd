@@ -2,9 +2,7 @@
 
 The purpose of the project is to let you practice using TDD (Test-Driven Development, aka Test-Driven Design).
 
-To experience TDD, use the red-green-refactoring pattern to fully implement the IntegerToWordedString conversion function. This function takes an integer number and converts to a worded string (in whatever output language that you care to use for implementation though the initial test is based on English). The project source is explicitly stubbed out to a minimum implementation that only defines main program, the conversion function declaration, and two unit tests.
-
-The goal is for you to create “beautiful code” that fully implements the specifications for 32-bit numbers.
+To experience TDD, use the red-green-refactoring pattern to create “beautiful code” that fully implement the IntegerToWordedString conversion function for 32-bit numbers. This function takes an integer number and converts to a worded string (in whatever output language that you care to use for implementation though the initial test is based on English). The project source is explicitly stubbed out to a minimum implementation that only defines main program, the conversion function declaration, and two unit tests.
 
 # Functional Specification
 
