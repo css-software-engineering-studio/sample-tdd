@@ -2,6 +2,26 @@
 
 This document is intended to guide you through the use of Test-Driven Development (TDD) to implement a specific feature in your project while adhering to the <a href="https://martinfowler.com/bliki/Yagni.html">YAGNI</a> (You Ain't Going to Need It) principles as outlined by Martin Fowler. YAGNI emphasizes the practice of not adding functionality until it is necessary, essentially meaning you should only implement something when there is a test that requires it. This approach avoids over-engineering and keeps the design simple and focused on what is needed at present.
 
+## Focus on creating simple, well-organized, readable code
+
+The goal of TDD is to produce code that is professional quality. In particular, the code MUST:
+
+1. Correctly implement the desired functionality.
+
+    Add automated unit tests to help ensure this goal. 
+
+1. Be easy for others to read and understand. 
+
+    Refactor the code to be "beautiful" production-quality code to help ensure this goal. See Robert Martin's excellent book [*Clean code: a handbook of agile software craftsmanship*](https://learning.oreilly.com/library/view/clean-code-a/9780136083238/). 
+
+    Write code that is as simple as reasonable, and is highly readable. That code will be easier to change.
+    
+    Write code that you would be proud to show to a peer. 
+
+While your code MUST meet both goals, put more attention on the second goal as maintainability is critical for professional code and most students do not have much practice with producing simple, well-organized, readable code.
+
+
+
 ## Read all of this document
 
 Before writing any unit tests or code, read everything in this document, includeing the content linked to by the hyperlinks.
